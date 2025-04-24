@@ -19,7 +19,7 @@ function App() {
       <ThemeProvider>
         <LocaleProvider>
           <NoteProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/personal-notes-app-react-api-context-hooks">
               <RouteChangeHandler />
               <Routes>
                 <Route path="/" element={<IndexLayout />}>
